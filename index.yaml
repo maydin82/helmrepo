@@ -9,7 +9,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2026-05-05T12:53:30.04295+03:00"
+    created: "2026-05-05T12:57:07.791134+03:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -34,6 +34,6 @@ entries:
     - https://github.com/bitnami/charts/tree/main/bitnami/sealed-secrets
     - https://github.com/bitnami-labs/sealed-secrets
     urls:
-    - https://github.com/maydin82/helmrepo/blob/main/sealed-secrets-2.5.20.tgz
+    - https://maydin82.github.io/helmrepo/sealed-secrets-2.5.20.tgz
     version: 2.5.20
-generated: "2026-05-05T12:53:30.039569+03:00"
+generated: "2026-05-05T12:57:07.789112+03:00"
