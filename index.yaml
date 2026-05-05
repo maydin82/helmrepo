@@ -1,0 +1,39 @@
+apiVersion: v1
+entries:
+  sealed-secrets:
+  - annotations:
+      images: |
+        - name: sealed-secrets-controller
+          image: docker.io/bitnami/sealed-secrets-controller:0.31.0-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: clusterUtility
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2026-05-05T12:40:41.281692+03:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Sealed Secrets are "one-way" encrypted K8s Secrets that can be created
+      by anyone, but can only be decrypted by the controller running in the target
+      cluster recovering the original object.
+    digest: 50ffef3d1e7797d0b432caa99f4834eddcd79adac4d7911311ee65b5f8767e79
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: sealed-secrets
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/sealed-secrets
+    - https://github.com/bitnami-labs/sealed-secrets
+    urls:
+    - https://github.com/maydin82/helmrepo/sealed-secrets-2.5.20.tgz
+    version: 2.5.20
+generated: "2026-05-05T12:40:41.276869+03:00"
