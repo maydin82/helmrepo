@@ -1,0 +1,8 @@
+apiVersion: helm.openshift.io/v1beta1
+kind: HelmChartRepository
+metadata:
+  name: mustafa-custom-helm
+spec:
+  connectionConfig:
+    url: https://maydin82.github.io/helmrepo/
+  name: mustafa Helm Charts
